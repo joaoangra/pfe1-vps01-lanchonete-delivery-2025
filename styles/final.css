@@ -12,6 +12,9 @@ table {
   border-collapse: collapse;
   margin-top: 20px;
   background-color: white;
+  border-radius: 5px;
+  border-radius: 10px;
+  box-shadow: #000000 1px 1px 5px;
 }
 
 th, td {
@@ -21,12 +24,12 @@ th, td {
 }
 
 th {
-  background-color: #af9005;
+  background-color: #05af93;
   color: rgb(5, 5, 5);
 }
 
 tr:nth-child(even) {
-  background-color: #e2dede;
+  background-color: #d0d1d1;
 }
 
 .topo {
@@ -38,7 +41,7 @@ tr:nth-child(even) {
 }
 
 .btn-voltar {
-  background-color: #af9005;
+  background-color: #00d9ff;
   padding: 8px 12px;
   border: none;
   border-radius: 8px;
@@ -49,7 +52,7 @@ tr:nth-child(even) {
 .total {
   margin-top: 15px;
   font-weight: bold;
-   background-color: #af9005;
+   background-color: #c1f1fa;
 }
 
 @media (max-width: 768px) {
