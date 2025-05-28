@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lanchonete JoaoAngra Delivery</title>
+    <link rel="shortcut icon" href="../assets/icone.png" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/home.css">
+</head>
+<body>
+    <header>
+        <h1>Lanchonete JoaoAngra Delivery</h1>
+        <nav>
+            <button onclick="window.location.href='./final.html'">Pedidos Finalizados</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="form">
+            <label>Cliente: <input type="text" id="cliente"></label>
+            <label>Endereço: <input type="text" id="endereco"></label>
+            <label>Produto: 
+                <select id="prod">
+                    <option value=""> Selecione um produto </option>
+                </select>
+            </label>
+            <button id="Pedidogerado">Mostrar Pedidos</button>
+        </section>
+
+        <section class="pedidos">
+            <div class="colun">
+                <h2>Em Execução</h2>
+                <div id="exec"></div>
+            </div>
+            <div class="colun">
+                <h2>A Caminho</h2>
+                <div id="entrega"></div>
+            </div>
+        </section>
+    </main>
+
+    <script src="../scripts/home.js"></script>
+</body>
+</html>
